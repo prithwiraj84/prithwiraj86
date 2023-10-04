@@ -1,0 +1,18 @@
+""" conversion functions between fahrenheit and celsius
+"""
+
+
+# functions
+def to_celsius(x):
+    """Returns: x converted to celsius """
+    return 5 * (x - 32) / 9
+
+
+def to_fahrenheit(x):
+    """Returns: x converted to fahrenheit"""
+    return 9 * x / 5 + 32
+
+
+# constant
+FREEZING_C = 0.0
+FREEZING_F = 32.0
